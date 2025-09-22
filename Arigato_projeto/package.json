@@ -1,0 +1,14 @@
+{
+  "name": "final-e-commerce-arigato",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^18.x.x",
+    "react-dom": "^18.x.x",
+    "react-scripts": "5.x.x"
+  }
+}
