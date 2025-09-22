@@ -12,7 +12,7 @@ O nome "Arigatooo" é uma referência bem-humorada ao meme "Arigatooo, Egitooo".
 
 ### Páginas Principais
 
-- **home.html** - Página inicial com apresentação da empresa, galeria premium e catálogo de produtos
+- **index.html** - Página inicial com apresentação da empresa, galeria premium e catálogo de produtos
 - **login.html** - Página de autenticação de usuários
 - **cadastro.html** - Página de registro de novos usuários  
 - **carrinho.html** - Página do carrinho de compras com funcionalidade completa
@@ -71,7 +71,7 @@ O nome "Arigatooo" é uma referência bem-humorada ao meme "Arigatooo, Egitooo".
 ```
 projeto-arigatooo/
 │
-├── home.html
+├── index.html
 ├── login.html
 ├── cadastro.html
 ├── carrinho.html
@@ -124,10 +124,12 @@ projeto-arigatooo/
 - Domingo e Feriados: 08:00 - 12:00
 
 ## Como Executar
-
+1. Abra o Link do Vercel: https://final-e-commerce-arigato-tkfa.vercel.app/
+   
+OU se quiser baixar o arquivo
 1. Faça o download dos arquivos do projeto
 2. Certifique-se de que todos os arquivos CSS, JS e imagens estejam nos diretórios corretos
-3. Abra o arquivo `home.html` em um navegador web
+3. Abra o arquivo `index.html` em um navegador web
 4. Navegue pelas diferentes seções usando o menu ou os botões de navegação
 
 ## Observações
@@ -139,4 +141,4 @@ projeto-arigatooo/
 
 ## Autor
 
-Projeto desenvolvido como demonstração de habilidades em desenvolvimento web front-end, com foco em HTML, CSS e JavaScript vanilla.
+Projeto desenvolvido como demonstração de habilidades em desenvolvimento web front-end, com foco em HTML, CSS e JavaScript.
