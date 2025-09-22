@@ -1,0 +1,300 @@
+/* Section 1 - Principal */
+.section_1 {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), 
+                url('../img/fondo3.jpg') center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+}
+
+.section_1 h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.7);
+}
+
+.section_1 p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+.botao {
+    display: flex;
+    gap: 1rem;
+}
+
+.section_1 .sobre {
+    background: #dba06f;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    width: 170px;
+}
+
+.section_1 a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Section 2 - Galeria */
+.section_2 {
+    background: #fff7ed;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+.section_2 h1 {
+    font-size: 3rem;
+    color: rgb(180, 86, 9);
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.produtos_prem {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cards_prem {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.cards_prem div {
+    padding: 1.5rem;
+}
+
+.cards_prem div:hover {
+    transform: translateY(-10px);
+}
+
+.cards_prem img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.cards_prem h2 {
+    color: #000000;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.cards_prem p {
+    color: #3a3a3a;
+    margin-bottom: 1rem;
+}
+
+.cards_prem h3 {
+    color: #fca607;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+/* Section 3 - Sobre Nós */
+.section_3 {
+    background-color: black; 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 40px;
+    min-height: 70vh;
+    gap: 40px;
+}
+
+.sobre {
+    flex: 2;
+    padding-right: 20px;
+}
+
+.imagem {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.imagem img {
+    width: 200%;
+    height: auto;
+    margin-right: -170px;
+}
+
+.section_3 h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-left: 0;
+}
+
+.section_3 p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #ecf0f1;
+    margin-left: 0;
+    text-align: justify;
+}
+
+/* Section 4 - Produtos */
+.section_4 {
+    background: linear-gradient(135deg, #c59364, #92663d);
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+.section_4 h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.produtos {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.cards div {
+    background: white;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    transition: all 0.4s ease;
+    overflow: hidden;
+    position: relative;
+}
+
+.cards div:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 25px 50px rgba(0,0,0,0.2);
+}
+
+.cards img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.cards div:hover img {
+    transform: scale(1.05);
+}
+
+.cards h2 {
+    color: #000000;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.cards p {
+    color: #7f8c8d;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+}
+
+.cards h3 {
+    color: #ef9220;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.cards a {
+    background: linear-gradient(135deg, #27ae60, #229954);
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    width: 100%;
+}
+
+.cards button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.carrinhobtn {
+    color: white;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(135deg, #503a2c, #5e4e34);
+    color: #ecf0f1;
+    padding: 3rem 2rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    text-align: center;
+}
+
+.horarios h3,
+.redes h3 {
+    margin-bottom: 1rem;
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+
+.horarios ul {
+    list-style: none;
+}
+
+.horarios li {
+    margin-bottom: 0.5rem;
+    color: #e3eaee;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redes a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.icones {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.suporte-btn {
+    background: linear-gradient(135deg, #c99766, #b4885c);
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}

@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding: 10px 20px;
+}
+
+nav {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0.8rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+nav a {
+    color: rgb(180, 86, 9);
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.logo img {
+    width: 62px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+header h1 {
+    color: rgb(180, 86, 9);
+    font-size: 2rem;
+    font-weight: bold;
+    align-items: center;
+}
+
+.cadastro {
+    background: linear-gradient(135deg, #d46904, #f39f21);
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.bg-carrinho {
+    background: linear-gradient(135deg, #d46904, #f39f21);
+    padding: 0.4rem;
+    border-radius: 50%;
+}
+
+.funcoes {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.carrinho {
+    width: 30px;
+    height: 30px;
+}
